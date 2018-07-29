@@ -1,0 +1,16 @@
+---
+layout: default
+title: Dandy Alfaz's Blog
+---
+<h4>Posts</h4>
+<ul class="posts">
+
+  {%- if site.posts.size == 0 -%}
+    <i>Hi there! sorry, currently I'm too lazy to write a post.</i>
+  {%- endif -%}
+
+  {% for post in site.posts %}
+    <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></li>
+  {% endfor %}
+    
+</ul>

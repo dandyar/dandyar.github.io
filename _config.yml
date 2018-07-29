@@ -1,2 +1,5 @@
 name: Dandy Alfaz Ramadhan
-markdown: kramdawn
+markdown: kramdown
+permalink: /blog/:year/:month/:day/:title
+collections:
+  - projects

@@ -8,29 +8,33 @@
   <link rel="stylesheet" href="/css/main.css">
 </head>
 <body>
-  
   <header>
-      <h1>Dandy Alfaz Ramadhan</h1>
+    <div class="container">
+      <div id="title">
+          <h1>Dandy Alfaz Ramadhan</h1>
+      </div>
+      <nav>
+        <ul>
+          <li><a href="/">Home</a></li>
+          <li><a href="/projects">Projects</a></li>
+          <li><a href="/blog">Blog</a></li>
+        </ul>
+      </nav>
+    </div>
   </header>
-  
-  <nav>
-    <ul>
-      <li><a href="/">Home</a></li>
-      <li><a href="/cv/">CV</a></li>
-      <li><a href="/portfolio">Portfolio</a></li>
-      <li><a href="/blog">Blog</a></li>
-    </ul>
-  </nav>
+
   <div class="container">
 
     {{ content }}
 
   </div>
   <footer>
-    <ul>
-      <li><a href="mailto:dandyalfaz@outlook.com">dandyalfaz@outlook.com</a></li>
-      <li><a href="https://github.com/dandyar">github.com/dandyar</a></li>
-    </ul>
+    <div class="container">
+      <ul>
+        <li><a href="mailto:dandyalfaz@outlook.com">dandyalfaz@outlook.com</a></li>
+        <li><a href="https://github.com/dandyar">github.com/dandyar</a></li>
+      </ul>
+    </div>
   </footer>
 </body>
 </html>

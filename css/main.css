@@ -1,8 +1,8 @@
 body{ padding-top: 15px; }
+
 .container { margin: 0 auto; width: 70%; }
-.intro{
-  overflow: hidden;
-}
+
+.intro{ overflow: hidden; }
 
 .profile-pic{
   margin-top: 20px;
@@ -20,7 +20,7 @@ body{ padding-top: 15px; }
 a { text-decoration: none; color: #999; }
 a:hover { text-decoration: underline; }
 
-p, table{ font-size: 1.5em; line-height: 1.4em; color: #333; }
+p{ font-size: 1.5em; line-height: 1.4em; color: #333; }
 
 h1, h2, h3, h4, a { font-family: 'Helvetica', 'Arial', 'Sans-Serif'; }
 h1 { font-size: 3em;  }
@@ -50,3 +50,9 @@ ul.posts li { list-style: none; }
 .project a{ font-size: 1.5em; }
 .project p{ margin: 0; }
 .portfolio h4{ margin-bottom: 0; }
+
+@media only screen and (min-width : 320px) and (max-width : 768px) {
+  .container { margin: 0 auto; width: 95%; }
+  .profile-pic { margin: 0 auto; margin-top: 25px; float: none;}
+  p{ font-size: 1.3em; line-height: 1.4em; color: #333;}
+}
